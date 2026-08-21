@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="emerald">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <title>Mihir Anand | CSE Student & Aspiring Software Developer | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Mihir Anand - B.Tech CSE student at ABES Engineering College skilled in C++, DSA, JavaScript, React.js, and web technologies. Seeking software development and frontend engineering internships."
+    />
+    <meta
+      name="keywords"
+      content="Mihir Anand, Mihir Anand Portfolio, ABES Engineering College, CSE student portfolio, software developer internship, React developer, frontend developer, B.Tech portfolio, DSA, JavaScript developer, CodeChef mihir1245anand"
+    />
+    <meta name="author" content="Mihir Anand" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mihir Anand | CSE Student Portfolio" />
+    <meta
+      property="og:description"
+      content="Aspiring software developer — practicing DSA, problem solving, and building modern web experiences. Open to internship opportunities."
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mihir Anand | CSE Student Portfolio" />
+    <meta
+      name="twitter:description"
+      content="B.Tech CSE student seeking software / frontend development internships."
+    />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#050b0a" />
+
+    <!-- Favicon Icon (Inline SVG) -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2310b981'/><text x='50%' y='55%' dominant-baseline='central' text-anchor='middle' font-family='sans-serif' font-weight='900' font-size='46' fill='%23ffffff'>MA</text></svg>"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-inner">
+        <div class="navbar-logo" data-target="home">
+          <div class="logo-box">MA</div>
+          <span class="logo-text">Mihir<span>.dev</span></span>
+        </div>
+
+        <ul class="navbar-links">
+          <li><button class="nav-link active" data-target="home">Home</button></li>
+          <li><button class="nav-link" data-target="about">About</button></li>
+          <li><button class="nav-link" data-target="skills">Skills</button></li>
+          <li><button class="nav-link" data-target="experience">Experience</button></li>
+          <li><button class="nav-link" data-target="achievements">Achievements</button></li>
+          <li><button class="nav-link" data-target="resume">Resume</button></li>
+          <li><button class="nav-link" data-target="contact">Contact</button></li>
+        </ul>
+
+        <div class="navbar-cta">
+          <a href="#resume" class="btn btn-primary" data-target="resume">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Resume
+          </a>
+          <button class="hamburger" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-menu">
+      <ul>
+        <li><button class="mobile-link" data-target="home">Home</button></li>
+        <li><button class="mobile-link" data-target="about">About</button></li>
+        <li><button class="mobile-link" data-target="skills">Skills</button></li>
+        <li><button class="mobile-link" data-target="experience">Experience</button></li>
+        <li><button class="mobile-link" data-target="achievements">Achievements</button></li>
+        <li><button class="mobile-link" data-target="resume">Resume</button></li>
+        <li><button class="mobile-link" data-target="contact">Contact</button></li>
+      </ul>
+      <div class="mobile-menu-cta">
+        <a href="#resume" class="btn btn-primary" data-target="resume">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Download Resume
+        </a>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-orbs">
+          <div class="orb orb-1"></div>
+          <div class="orb orb-2"></div>
+          <div class="orb orb-3"></div>
+        </div>
+
+        <div class="hero-inner">
+          <div class="fade-in-element visible">
+            <div class="hero-badge">
+              <span class="hero-badge-dot"></span>
+              Open to Internship Opportunities · 2025–26
+            </div>
+
+            <h1 class="hero-name">
+              Hi, I'm <span class="hero-name-gradient">Mihir</span> <span class="wave-hand">👋</span>
+            </h1>
+
+            <div class="hero-title-wrapper">
+              <span class="hero-title-prefix">Aspiring</span>
+              <span class="dynamic-role-pill">
+                <span class="role-icon" id="role-icon">⚡</span>
+                <span class="dynamic-role-text" id="typed-role">Web Developer</span>
+                <span class="laser-cursor"></span>
+              </span>
+            </div>
+
+            <p class="hero-description">
+              B.Tech CSE student passionate about
+              <strong style="color: var(--text-primary)">software development</strong>,
+              solving algorithmic challenges, and growing into a professional engineer.
+              I practice DSA daily and write clean, scalable code.
+            </p>
+
+            <div class="hero-buttons">
+              <button class="btn btn-primary" data-target="skills">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+                Explore Skills
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+              <a class="btn btn-outline" href="#resume" data-target="resume">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                Resume
+              </a>
+              <button class="btn btn-ghost" data-target="contact">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                Contact Me
+              </button>
+            </div>
+
+            <div class="hero-socials">
+              <span class="hero-socials-label">Find me on:</span>
+              <a href="https://github.com/mihir1245anand" class="social-link" target="_blank" rel="noreferrer" title="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/mihir-anand-349a99424/" class="social-link" target="_blank" rel="noreferrer" title="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+              <a href="https://www.codechef.com/users/mihir1245anand" class="social-link" target="_blank" rel="noreferrer" title="CodeChef">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </a>
+              <a href="https://leetcode.com/u/mihir1245anand/" class="social-link" target="_blank" rel="noreferrer" title="LeetCode">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+                </svg>
+              </a>
+              <a href="mailto:raghavanand034@gmail.com" class="social-link" title="Email">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual / Code Window Card -->
+          <div class="hero-visual fade-in-element visible">
+            <div class="hero-code-card">
+              <div class="code-card-header">
+                <div class="code-dots">
+                  <div class="code-dot red"></div>
+                  <div class="code-dot yellow"></div>
+                  <div class="code-dot green"></div>
+                </div>
+                <span class="code-filename">developer.js</span>
+              </div>
+              <div class="code-card-body">
+                <div class="code-line"><span class="line-num">1</span><span class="line-content"><span class="kw">const</span> <span class="cl">developer</span> = {</span></div>
+                <div class="code-line"><span class="line-num">2</span><span class="line-content">&nbsp;&nbsp;<span class="prop">name</span>: <span class="str">"Mihir Anand"</span>,</span></div>
+                <div class="code-line"><span class="line-num">3</span><span class="line-content">&nbsp;&nbsp;<span class="prop">college</span>: <span class="str">"ABES Engineering College"</span>,</span></div>
+                <div class="code-line"><span class="line-num">4</span><span class="line-content">&nbsp;&nbsp;<span class="prop">role</span>: <span class="str">"CSE Student"</span>,</span></div>
+                <div class="code-line"><span class="line-num">5</span><span class="line-content">&nbsp;&nbsp;<span class="prop">skills</span>: [<span class="str">"C++"</span>, <span class="str">"DSA"</span>, <span class="str">"React"</span>, <span class="str">"JS"</span>],</span></div>
+                <div class="code-line"><span class="line-num">6</span><span class="line-content">&nbsp;&nbsp;<span class="prop">dsaProblems</span>: <span class="num">200</span>,</span></div>
+                <div class="code-line"><span class="line-num">7</span><span class="line-content">&nbsp;&nbsp;<span class="prop">codechefRating</span>: <span class="str">"1★"</span>,</span></div>
+                <div class="code-line"><span class="line-num">8</span><span class="line-content">&nbsp;&nbsp;<span class="prop">openToWork</span>: <span class="kw">true</span>,</span></div>
+                <div class="code-line"><span class="line-num">9</span><span class="line-content">&nbsp;&nbsp;<span class="prop">focus</span>: <span class="str">"Problem Solving & Clean Code 🚀"</span>,</span></div>
+                <div class="code-line"><span class="line-num">10</span><span class="line-content">};</span></div>
+                <div class="code-line"><span class="line-num">11</span><span class="line-content"></span></div>
+                <div class="code-line"><span class="line-num">12</span><span class="line-content"><span class="cmt">// 🎯 Goal: Software / Frontend Internship</span></span></div>
+                <div class="code-line"><span class="line-num">13</span><span class="line-content"><span class="kw">export default</span> developer;</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-scroll-hint" data-target="about">
+          <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+          <span>Scroll</span>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-header fade-in-element">
+            <div class="section-tag">Who I Am</div>
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="divider"></div>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-visual fade-in-element">
+              <div class="about-card">
+                <div class="about-avatar">MA</div>
+                <div class="about-card-name">Mihir Anand</div>
+                <div class="about-card-title">2nd Year B.Tech CSE Student</div>
+
+                <ul class="about-info-list">
+                  <li class="about-info-item">
+                    <svg class="about-info-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                      <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                    <span><span class="about-info-label">College:</span>ABES ENGINEERING COLLEGE</span>
+                  </li>
+                  <li class="about-info-item">
+                    <svg class="about-info-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                      <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                    <span><span class="about-info-label">Degree:</span>B.Tech in Computer Science</span>
+                  </li>
+                  <li class="about-info-item">
+                    <svg class="about-info-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                      <line x1="16" y1="2" x2="16" y2="6"></line>
+                      <line x1="8" y1="2" x2="8" y2="6"></line>
+                      <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    <span><span class="about-info-label">Graduating:</span>2029</span>
+                  </li>
+                  <li class="about-info-item">
+                    <svg class="about-info-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <span><span class="about-info-label">Location:</span>India</span>
+                  </li>
+                  <li class="about-info-item">
+                    <svg class="about-info-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <circle cx="12" cy="12" r="6"></circle>
+                      <circle cx="12" cy="12" r="2"></circle>
+                    </svg>
+                    <span><span class="about-info-label">Goal:</span>Software / Frontend Internship</span>
+                  </li>
+                </ul>
+
+                <div class="about-stats">
+                  <div class="stat-box">
+                    <div class="stat-value">200+</div>
+                    <div class="stat-label">DSA Problems</div>
+                  </div>
+                  <div class="stat-box">
+                    <div class="stat-value">1★</div>
+                    <div class="stat-label">CodeChef Rating</div>
+                  </div>
+                  <div class="stat-box">
+                    <div class="stat-value">2+</div>
+                    <div class="stat-label">Years Learning</div>
+                  </div>
+                  <div class="stat-box">
+                    <div class="stat-value">10+</div>
+                    <div class="stat-label">Tech Stack</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-content fade-in-element">
+              <div class="about-bio">
+                <p>
+                  Hey there! I'm <strong>Mihir Anand</strong>, a 2nd-year B.Tech Computer Science student at <strong>ABES Engineering College</strong> with a deep passion for software engineering, problem solving, and modern web development.
+                </p>
+                <p>
+                  Over the past two years, I've been on a consistent self-learning journey — mastering Data Structures and Algorithms in C++, practicing competitive programming on CodeChef and LeetCode, and developing a solid foundation in core Computer Science concepts and modern frontend technologies like React and JavaScript.
+                </p>
+                <p>
+                  I'm driven by curiosity, dedication, and a hunger to grow. Even in my 2nd year, I'm actively seeking internship opportunities where I can contribute to real-world software systems, learn from experienced engineers, and accelerate my career.
+                </p>
+              </div>
+
+              <div class="about-highlights">
+                <div class="highlight-item">
+                  <span class="highlight-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                  </span>
+                  Practicing DSA daily — 200+ problems solved on CodeChef & LeetCode
+                </div>
+                <div class="highlight-item">
+                  <span class="highlight-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                  </span>
+                  Strong in C++, Object-Oriented Programming, and algorithmic analysis
+                </div>
+                <div class="highlight-item">
+                  <span class="highlight-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                  </span>
+                  Building modern UI components with JavaScript, HTML5, CSS3 & React
+                </div>
+                <div class="highlight-item">
+                  <span class="highlight-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                  </span>
+                  Actively seeking SDE / Frontend developer internship opportunities
+                </div>
+              </div>
+
+              <div class="about-cta">
+                <button class="btn btn-primary" data-target="skills">Explore Skills</button>
+                <a href="https://www.linkedin.com/in/mihir-anand-349a99424/" class="btn btn-outline" target="_blank" rel="noreferrer">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                  Connect on LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="section section-alt" id="skills">
+        <div class="container">
+          <div class="section-header fade-in-element">
+            <div class="section-tag">What I Know</div>
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <p class="section-subtitle">
+              A snapshot of my technical skills — developed through coursework, competitive programming, and consistent daily practice.
+            </p>
+            <div class="divider"></div>
+          </div>
+
+          <div class="skills-grid">
+            <!-- Languages -->
+            <div class="skill-category-card fade-in-element">
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <span class="skill-cat-name">Languages</span>
+              </div>
+              <div class="skill-list">
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">C++</span>
+                    <span class="skill-percent">85%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="85"></div></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">JavaScript</span>
+                    <span class="skill-percent">88%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="88"></div></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">HTML5</span>
+                    <span class="skill-percent">92%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="92"></div></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">CSS3</span>
+                    <span class="skill-percent">87%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="87"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Core CS Concepts -->
+            <div class="skill-category-card fade-in-element">
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                    <rect x="9" y="9" width="6" height="6"></rect>
+                    <line x1="9" y1="1" x2="9" y2="4"></line>
+                    <line x1="15" y1="1" x2="15" y2="4"></line>
+                    <line x1="9" y1="20" x2="9" y2="23"></line>
+                    <line x1="15" y1="20" x2="15" y2="23"></line>
+                    <line x1="20" y1="9" x2="23" y2="9"></line>
+                    <line x1="20" y1="14" x2="23" y2="14"></line>
+                    <line x1="1" y1="9" x2="4" y2="9"></line>
+                    <line x1="1" y1="14" x2="4" y2="14"></line>
+                  </svg>
+                </div>
+                <span class="skill-cat-name">Core CS Concepts</span>
+              </div>
+              <div class="skill-list">
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">Data Structures</span>
+                    <span class="skill-percent">82%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="82"></div></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">Algorithms</span>
+                    <span class="skill-percent">78%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="78"></div></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">OOP Principles</span>
+                    <span class="skill-percent">82%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="82"></div></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">Problem Solving</span>
+                    <span class="skill-percent">85%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="85"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Frameworks & Libraries -->
+            <div class="skill-category-card fade-in-element">
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                  </svg>
+                </div>
+                <span class="skill-cat-name">Frameworks & Libraries</span>
+              </div>
+              <div class="skill-list">
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">React.js</span>
+                    <span class="skill-percent">75%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="75"></div></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">Tailwind CSS</span>
+                    <span class="skill-percent">70%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="70"></div></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">Bootstrap</span>
+                    <span class="skill-percent">72%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="72"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tools & Platforms -->
+            <div class="skill-category-card fade-in-element">
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                  </svg>
+                </div>
+                <span class="skill-cat-name">Tools & Platforms</span>
+              </div>
+              <div class="skill-list">
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">Git & GitHub</span>
+                    <span class="skill-percent">84%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="84"></div></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">VS Code</span>
+                    <span class="skill-percent">90%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="90"></div></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">npm / Vite</span>
+                    <span class="skill-percent">72%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="72"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Currently Learning -->
+            <div class="skill-category-card fade-in-element">
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                    <polyline points="17 6 23 6 23 12"></polyline>
+                  </svg>
+                </div>
+                <span class="skill-cat-name">Currently Learning</span>
+              </div>
+              <div class="skill-list">
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">Node.js & Express</span>
+                    <span class="skill-percent">45%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="45"></div></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">REST APIs</span>
+                    <span class="skill-percent">50%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="50"></div></div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-name">SQL / Databases</span>
+                    <span class="skill-percent">40%</span>
+                  </div>
+                  <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="40"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-tags-section fade-in-element">
+            <p class="skill-tags-title">Tech Stack at a Glance</p>
+            <div class="skill-tags">
+              <span class="tech-badge">C++</span>
+              <span class="tech-badge">Data Structures</span>
+              <span class="tech-badge">Algorithms</span>
+              <span class="tech-badge">OOP</span>
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">HTML5</span>
+              <span class="tech-badge">CSS3</span>
+              <span class="tech-badge">React.js</span>
+              <span class="tech-badge">Git</span>
+              <span class="tech-badge">GitHub</span>
+              <span class="tech-badge">VS Code</span>
+              <span class="tech-badge">Tailwind CSS</span>
+              <span class="tech-badge">REST APIs</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience / Timeline Section -->
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section-header fade-in-element">
+            <div class="section-tag">My Journey</div>
+            <h2 class="section-title">Experience & <span>Training</span></h2>
+            <p class="section-subtitle">
+              As a fresher, my journey is rooted in consistent problem-solving practice, structured self-learning, and competitive coding milestones.
+            </p>
+            <div class="divider"></div>
+          </div>
+
+          <div class="timeline">
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item fade-in-element">
+              <div class="timeline-dot" style="color: var(--accent-purple)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <span class="timeline-org">CodeChef · LeetCode · HackerRank</span>
+                  <span class="timeline-date">2023 — Present</span>
+                </div>
+                <h3 class="timeline-title">Competitive Programming & DSA Practice</h3>
+                <p class="timeline-desc">
+                  Solved 200+ DSA problems across platforms covering arrays, strings, recursion, trees, and dynamic programming. Regularly participating in rated coding contests to boost speed, accuracy, and algorithmic insight.
+                </p>
+                <div class="timeline-skills">
+                  <span class="timeline-skill-tag">C++</span>
+                  <span class="timeline-skill-tag">DSA</span>
+                  <span class="timeline-skill-tag">Problem Solving</span>
+                  <span class="timeline-skill-tag">Algorithms</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Timeline Item 2 -->
+            <div class="timeline-item fade-in-element">
+              <div class="timeline-dot" style="color: var(--accent-blue)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <span class="timeline-org">Online Platforms & Documentation</span>
+                  <span class="timeline-date">2023 — Present</span>
+                </div>
+                <h3 class="timeline-title">Self-Paced Web Development Learning</h3>
+                <p class="timeline-desc">
+                  Completed in-depth studies in modern frontend engineering — HTML5, CSS3, JavaScript (ES6+), and React.js. Focused on clean architecture, component composition, and responsive design systems.
+                </p>
+                <div class="timeline-skills">
+                  <span class="timeline-skill-tag">JavaScript</span>
+                  <span class="timeline-skill-tag">React.js</span>
+                  <span class="timeline-skill-tag">HTML5</span>
+                  <span class="timeline-skill-tag">CSS3</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Timeline Item 3 -->
+            <div class="timeline-item fade-in-element">
+              <div class="timeline-dot" style="color: var(--accent-orange)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <span class="timeline-org">College & Tech Communities</span>
+                  <span class="timeline-date">2024</span>
+                </div>
+                <h3 class="timeline-title">Hackathon & Technical Workshops</h3>
+                <p class="timeline-desc">
+                  Participated in college hackathons and collaborative workshops. Practiced rapid problem decomposition, agile brainstorming, and peer programming with fellow engineering students.
+                </p>
+                <div class="timeline-skills">
+                  <span class="timeline-skill-tag">Teamwork</span>
+                  <span class="timeline-skill-tag">Problem Decomposition</span>
+                  <span class="timeline-skill-tag">Collaboration</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Timeline Item 4 -->
+            <div class="timeline-item fade-in-element">
+              <div class="timeline-dot" style="color: var(--accent-green)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="6" y1="3" x2="6" y2="15"></line>
+                  <circle cx="18" cy="6" r="3"></circle>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <path d="M18 9a9 9 0 0 1-9 9"></path>
+                </svg>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <span class="timeline-org">GitHub Community</span>
+                  <span class="timeline-date">2024 — Present</span>
+                </div>
+                <h3 class="timeline-title">Version Control & Open Source Collaboration</h3>
+                <p class="timeline-desc">
+                  Practicing standard Git workflows: branching, rebasing, pull requests, issue tracking, and repository documentation to build professional software engineering discipline.
+                </p>
+                <div class="timeline-skills">
+                  <span class="timeline-skill-tag">Git</span>
+                  <span class="timeline-skill-tag">GitHub</span>
+                  <span class="timeline-skill-tag">Collaboration</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Achievements & Coding Profiles Section -->
+      <section class="section section-alt" id="achievements">
+        <div class="container">
+          <div class="section-header fade-in-element">
+            <div class="section-tag">Milestones</div>
+            <h2 class="section-title">Achievements & <span>Coding Profiles</span></h2>
+            <p class="section-subtitle">
+              My coding activity across platforms — proof of consistent practice, problem-solving, and continuous growth.
+            </p>
+            <div class="divider"></div>
+          </div>
+
+          <div class="achievements-grid">
+            <!-- CodeChef Card -->
+            <a href="https://www.codechef.com/users/mihir1245anand" class="achievement-card fade-in-element" target="_blank" rel="noreferrer">
+              <div class="achievement-icon" style="background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.25); color: #f59e0b">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <div class="achievement-platform">CodeChef</div>
+              <div class="achievement-username">@mihir1245anand</div>
+              <span class="achievement-stat">1★ Rated</span>
+              <div class="achievement-desc">Active contest participant & problem solver</div>
+            </a>
+
+            <!-- LinkedIn Card -->
+            <a href="https://www.linkedin.com/in/mihir-anand-349a99424/" class="achievement-card fade-in-element" target="_blank" rel="noreferrer">
+              <div class="achievement-icon" style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.25); color: var(--accent-blue)">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </div>
+              <div class="achievement-platform">LinkedIn</div>
+              <div class="achievement-username">in/mihir-anand-349a99424</div>
+              <span class="achievement-stat">500+ Conn</span>
+              <div class="achievement-desc">Sharing tech learnings & career milestones</div>
+            </a>
+
+            <!-- LeetCode Card -->
+            <a href="https://leetcode.com/u/mihir1245anand/" class="achievement-card fade-in-element" target="_blank" rel="noreferrer">
+              <div class="achievement-icon" style="background: rgba(6, 182, 212, 0.1); border: 1px solid rgba(6, 182, 212, 0.25); color: #06b6d4">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+                </svg>
+              </div>
+              <div class="achievement-platform">LeetCode</div>
+              <div class="achievement-username">@mihir1245anand</div>
+              <span class="achievement-stat">150+ Solved</span>
+              <div class="achievement-desc">Solving daily — arrays, strings, DP, trees</div>
+            </a>
+
+            <!-- GitHub Card -->
+            <a href="https://github.com/mihir1245anand" class="achievement-card fade-in-element" target="_blank" rel="noreferrer">
+              <div class="achievement-icon" style="background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.25); color: #3b82f6">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </div>
+              <div class="achievement-platform">GitHub</div>
+              <div class="achievement-username">@mihir1245anand</div>
+              <span class="achievement-stat">Active Repos</span>
+              <div class="achievement-desc">Code snippets, problem solutions & repositories</div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Resume Section -->
+      <section class="section resume-section" id="resume">
+        <div class="container">
+          <div class="resume-inner fade-in-element">
+            <div class="resume-card">
+              <div class="resume-icon">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+              </div>
+              <h2 class="resume-title">My Resume</h2>
+              <p class="resume-subtitle">
+                A concise snapshot of my skills, problem solving milestones, and academic background — crafted for tech internship applications.
+              </p>
+              <div class="resume-highlights">
+                <span class="resume-highlight-tag">✓ 200+ DSA problems solved across platforms</span>
+                <span class="resume-highlight-tag">✓ CodeChef 1★ Rated Competitive Programmer</span>
+                <span class="resume-highlight-tag">✓ Strong foundation in C++, OOP & Problem Solving</span>
+                <span class="resume-highlight-tag">✓ Proficient in JavaScript, HTML5, CSS3 & React</span>
+                <span class="resume-highlight-tag">✓ Active LeetCode & GitHub Contributor</span>
+                <span class="resume-highlight-tag">✓ Actively seeking internship opportunities</span>
+              </div>
+              <div class="resume-actions">
+                <a href="#contact" class="btn btn-primary" data-target="contact">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>
+                  Request Full Resume / CV
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="section section-alt" id="contact">
+        <div class="container">
+          <div class="section-header fade-in-element">
+            <div class="section-tag">Let's Connect</div>
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <p class="section-subtitle">
+              Whether you're a recruiter, fellow developer, or startup founder — I'd love to hear from you. Let's connect!
+            </p>
+            <div class="divider"></div>
+          </div>
+
+          <div class="contact-grid">
+            <div class="fade-in-element">
+              <h3 class="contact-info-title">Let's Talk Internships</h3>
+              <p class="contact-info-sub">
+                I'm actively looking for internship opportunities in software engineering, web development, and frontend roles. If you're hiring or just want to connect, my inbox is always open!
+              </p>
+
+              <div class="contact-items">
+                <a href="mailto:raghavanand034@gmail.com" class="contact-item">
+                  <div class="contact-item-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">Email</div>
+                    <div class="contact-item-value">raghavanand034@gmail.com</div>
+                  </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/mihir-anand-349a99424/" class="contact-item" target="_blank" rel="noreferrer">
+                  <div class="contact-item-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                      <rect x="2" y="9" width="4" height="12"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">LinkedIn</div>
+                    <div class="contact-item-value">linkedin.com/in/mihir-anand-349a99424</div>
+                  </div>
+                </a>
+
+                <a href="https://github.com/mihir1245anand" class="contact-item" target="_blank" rel="noreferrer">
+                  <div class="contact-item-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">GitHub</div>
+                    <div class="contact-item-value">github.com/mihir1245anand</div>
+                  </div>
+                </a>
+
+                <a href="https://www.codechef.com/users/mihir1245anand" class="contact-item" target="_blank" rel="noreferrer">
+                  <div class="contact-item-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">CodeChef</div>
+                    <div class="contact-item-value">codechef.com/users/mihir1245anand</div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="contact-socials">
+                <a href="https://github.com/mihir1245anand" class="contact-social-btn" target="_blank" rel="noreferrer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/mihir-anand-349a99424/" class="contact-social-btn" target="_blank" rel="noreferrer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                  LinkedIn
+                </a>
+                <a href="mailto:raghavanand034@gmail.com" class="contact-social-btn">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                  Email
+                </a>
+              </div>
+            </div>
+
+            <!-- Contact Form Card -->
+            <div class="fade-in-element">
+              <div class="contact-form-card">
+                <h3 class="form-title">Send Me a Message</h3>
+                <form id="contact-form">
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label class="form-label" for="name">Your Name</label>
+                      <input class="form-input" type="text" id="name" name="name" placeholder="John Doe" required />
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label" for="email">Email Address</label>
+                      <input class="form-input" type="email" id="email" name="email" placeholder="john@company.com" required />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="subject">Subject</label>
+                    <input class="form-input" type="text" id="subject" name="subject" placeholder="Internship Opportunity / Collaboration" required />
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="message">Message</label>
+                    <textarea class="form-textarea" id="message" name="message" placeholder="Hi Mihir! I came across your portfolio and would love to connect..." rows="5" required></textarea>
+                  </div>
+
+                  <button type="submit" class="form-submit">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="22" y1="2" x2="11" y2="13"></line>
+                      <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                    Send Message
+                  </button>
+
+                  <div class="form-success" id="form-success-alert" style="display: none;">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    Message sent! I'll get back to you within 24 hours.
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <div class="logo-box">MA</div>
+              <span class="logo-text">Mihir<span style="color: var(--accent-blue)">.dev</span></span>
+            </div>
+            <p class="footer-tagline">
+              B.Tech CSE student practicing DSA, solving problems, and preparing for a career in software engineering. Open to internship opportunities.
+            </p>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Navigation</div>
+            <ul class="footer-links">
+              <li><button data-target="home">Home</button></li>
+              <li><button data-target="about">About</button></li>
+              <li><button data-target="skills">Skills</button></li>
+              <li><button data-target="experience">Experience</button></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Connect</div>
+            <ul class="footer-links" style="margin-bottom: 16px">
+              <li><a href="https://github.com/mihir1245anand" target="_blank" rel="noreferrer">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/mihir-anand-349a99424/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+              <li><a href="https://www.codechef.com/users/mihir1245anand" target="_blank" rel="noreferrer">CodeChef</a></li>
+              <li><a href="https://leetcode.com/u/mihir1245anand/" target="_blank" rel="noreferrer">LeetCode</a></li>
+            </ul>
+            <div class="footer-social-links">
+              <a href="https://github.com/mihir1245anand" class="footer-social" target="_blank" rel="noreferrer" title="GitHub">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/mihir-anand-349a99424/" class="footer-social" target="_blank" rel="noreferrer" title="LinkedIn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+              <a href="https://www.codechef.com/users/mihir1245anand" class="footer-social" target="_blank" rel="noreferrer" title="CodeChef">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </a>
+              <a href="mailto:raghavanand034@gmail.com" class="footer-social" title="Email">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-copy">
+            © <span id="current-year">2026</span> <span>Mihir Anand</span>. All rights reserved.
+          </div>
+          <div class="footer-made">
+            Made with <svg class="footer-heart" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> using HTML, CSS & JavaScript
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Scroll To Top Button -->
+    <button class="scroll-to-top" aria-label="Scroll to top">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="12" y1="19" x2="12" y2="5"></line>
+        <polyline points="5 12 12 5 19 12"></polyline>
+      </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+  </body>
+</html>
