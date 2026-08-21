@@ -77,7 +77,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="https://github.com/mihir1245anand"
+                href="https://github.com/raghav1245anand/raghav1245anand"
                 className="contact-item"
                 target="_blank"
                 rel="noreferrer"
@@ -87,7 +87,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="contact-item-label">GitHub</div>
-                  <div className="contact-item-value">github.com/mihir1245anand</div>
+                  <div className="contact-item-value">github.com/raghav1245anand</div>
                 </div>
               </a>
 
@@ -109,7 +109,7 @@ export default function Contact() {
 
             <div className="contact-socials">
               <a
-                href="https://github.com/mihir1245anand"
+                href="https://github.com/raghav1245anand/raghav1245anand"
                 className="contact-social-btn"
                 target="_blank"
                 rel="noreferrer"

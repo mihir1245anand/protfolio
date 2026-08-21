@@ -15,7 +15,7 @@ const DEVELOPER_DATA = {
   phone: "+91 9876543210",
   linkedin: "https://www.linkedin.com/in/mihir-anand-349a99424/",
   codechef: "https://www.codechef.com/users/mihir1245anand",
-  github: "https://github.com/mihir1245anand",
+  github: "https://github.com/raghav1245anand/raghav1245anand",
   leetcode: "https://leetcode.com/u/mihir1245anand/",
   hackerrank: "https://www.hackerrank.com/profile/mihir1245anand",
   resumeUrl: "#resume"

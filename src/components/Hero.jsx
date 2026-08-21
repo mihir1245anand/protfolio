@@ -103,7 +103,7 @@ export default function Hero({ scrollTo }) {
           <div className="hero-socials">
             <span className="hero-socials-label">Find me on:</span>
             <a
-              href="https://github.com/mihir1245anand"
+              href="https://github.com/raghav1245anand/raghav1245anand"
               className="social-link"
               target="_blank"
               rel="noreferrer"

@@ -27,5 +27,6 @@ npx serve .
 
 ## 📬 Connect
 - **Email**: [raghavanand034@gmail.com](mailto:raghavanand034@gmail.com)
+- **GitHub**: [github.com/raghav1245anand](https://github.com/raghav1245anand/raghav1245anand)
 - **LinkedIn**: [linkedin.com/in/mihir-anand-349a99424](https://www.linkedin.com/in/mihir-anand-349a99424/)
 - **CodeChef**: [codechef.com/users/mihir1245anand](https://www.codechef.com/users/mihir1245anand)

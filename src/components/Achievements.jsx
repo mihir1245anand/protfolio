@@ -41,10 +41,10 @@ const PROFILES = [
   },
   {
     platform: 'GitHub',
-    username: '@mihir1245anand',
+    username: '@raghav1245anand',
     stat: 'Active Repos',
     desc: 'Code snippets, problem solutions & repositories',
-    url: 'https://github.com/mihir1245anand',
+    url: 'https://github.com/raghav1245anand/raghav1245anand',
     iconBg: 'rgba(59, 130, 246, 0.1)',
     iconBorder: 'rgba(59, 130, 246, 0.25)',
     iconColor: '#3b82f6',
