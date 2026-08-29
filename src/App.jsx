@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
+import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Achievements from './components/Achievements'
 import Resume from './components/Resume'
@@ -15,7 +16,7 @@ export default function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'skills', 'experience', 'achievements', 'resume', 'contact']
+      const sections = ['home', 'about', 'skills', 'projects', 'experience', 'achievements', 'resume', 'contact']
       const scrollPos = window.scrollY + 160
 
       for (const sectionId of sections) {
@@ -50,6 +51,7 @@ export default function App() {
         <Hero scrollTo={scrollTo} />
         <About scrollTo={scrollTo} />
         <Skills />
+        <Projects />
         <Experience />
         <Achievements />
         <Resume scrollTo={scrollTo} />
