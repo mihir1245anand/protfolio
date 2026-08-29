@@ -30,10 +30,19 @@ export default function Resume({ scrollTo }) {
                 </span>
               ))}
             </div>
-            <div className="resume-actions">
-              <button className="btn btn-primary" onClick={() => scrollTo('contact')}>
+            <div className="resume-actions" style={{ display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap' }}>
+              <a
+                href="https://flowcv.com/resume/4a6cn46cb2oc"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FileText size={16} />
+                View / Download Resume
+              </a>
+              <button className="btn btn-outline" onClick={() => scrollTo('contact')}>
                 <Eye size={16} />
-                Request Full Resume / CV
+                Contact for Inquiries
               </button>
             </div>
           </div>
