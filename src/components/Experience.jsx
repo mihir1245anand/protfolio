@@ -8,7 +8,7 @@ const TIMELINE_DATA = [
     org: 'CodeChef · LeetCode · HackerRank',
     date: '2023 — Present',
     title: 'Competitive Programming & DSA Practice',
-    desc: 'Solved 200+ DSA problems across platforms covering arrays, strings, recursion, trees, and dynamic programming. Regularly participating in rated coding contests to boost speed, accuracy, and algorithmic insight.',
+    desc: 'Solved 323+ DSA problems across platforms (267 on CodeChef, 56 on LeetCode) covering arrays, strings, recursion, trees, and dynamic programming. Regularly participating in rated coding contests to boost speed, accuracy, and algorithmic insight.',
     skills: ['C++', 'DSA', 'Problem Solving', 'Algorithms']
   },
   {

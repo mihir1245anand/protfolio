@@ -1,12 +1,14 @@
 import React from 'react'
-import { Award, Linkedin, Github, FileCheck, ExternalLink, Code2 } from 'lucide-react'
+import { Award, Linkedin, Github, FileCheck, ExternalLink, Flame, Trophy, GitBranch, Sparkles } from 'lucide-react'
 
 const PROFILES = [
   {
     platform: 'LeetCode',
     username: '@mihir1245anand',
-    stat: '55 Solved',
-    desc: '26 Easy · 19 Medium · 10 Hard solved',
+    stat: '56 Solved',
+    desc: '26 Easy · 20 Medium · 10 Hard',
+    badge: '32-Day Streak 🔥',
+    tags: ['26 Easy', '20 Medium', '10 Hard', '32d Streak', '75 Submissions'],
     url: 'https://leetcode.com/u/mihir1245anand/',
     iconBg: 'rgba(245, 158, 11, 0.1)',
     iconBorder: 'rgba(245, 158, 11, 0.25)',
@@ -20,8 +22,10 @@ const PROFILES = [
   {
     platform: 'CodeChef',
     username: '@mihir1245anand',
-    stat: '266 Solved',
-    desc: '1★ Rated (Div 4) · Active contest solver',
+    stat: '267 Solved',
+    desc: '1★ Rated (Div 4) · 1020 Rating',
+    badge: '1★ Coder ⭐',
+    tags: ['1★ Rated', '1020 Rating', 'Div 4', '267 Solved', 'C++ Mastery'],
     url: 'https://www.codechef.com/users/mihir1245anand',
     iconBg: 'rgba(168, 85, 247, 0.1)',
     iconBorder: 'rgba(168, 85, 247, 0.25)',
@@ -31,8 +35,10 @@ const PROFILES = [
   {
     platform: 'GitHub',
     username: '@mihir1245anand',
-    stat: '9 Repos',
-    desc: 'Projects, web apps & DSA solutions',
+    stat: '10 Repos',
+    desc: 'Full-Stack Apps, DSA & AI Tools',
+    badge: 'Active Builder 🚀',
+    tags: ['10 Repos', 'React 19', 'C++', 'JavaScript', 'Vite'],
     url: 'https://github.com/mihir1245anand',
     iconBg: 'rgba(59, 130, 246, 0.1)',
     iconBorder: 'rgba(59, 130, 246, 0.25)',
@@ -42,8 +48,10 @@ const PROFILES = [
   {
     platform: 'LinkedIn',
     username: 'in/mihir-anand-349a99424',
-    stat: '500+ Conn',
-    desc: 'Professional network & career updates',
+    stat: '500+ Network',
+    desc: 'Tech Community & SDE Aspirant',
+    badge: 'Open to Work 💼',
+    tags: ['B.Tech CSE', '2029 Grad', 'ABES-EC', '500+ Conn'],
     url: 'https://www.linkedin.com/in/mihir-anand-349a99424/',
     iconBg: 'rgba(10, 102, 194, 0.12)',
     iconBorder: 'rgba(10, 102, 194, 0.3)',
@@ -95,9 +103,29 @@ export default function Achievements() {
             Achievements & <span>Coding Profiles</span>
           </h2>
           <p className="section-subtitle">
-            My coding activity across platforms — proof of consistent practice, problem-solving, and continuous growth.
+            My live verified coding activity across platforms — consistent algorithmic practice, problem solving, and open-source software development.
           </p>
           <div className="divider"></div>
+        </div>
+
+        {/* Highlight Milestone Summary Banner */}
+        <div className="milestone-summary-bar fade-in-element visible">
+          <div className="milestone-metric">
+            <span className="milestone-metric-val">323+</span>
+            <span className="milestone-metric-lbl">Total DSA Problems Solved</span>
+          </div>
+          <div className="milestone-metric">
+            <span className="milestone-metric-val">267</span>
+            <span className="milestone-metric-lbl">CodeChef Solved · 1★ (1020)</span>
+          </div>
+          <div className="milestone-metric">
+            <span className="milestone-metric-val">56</span>
+            <span className="milestone-metric-lbl">LeetCode Solved (20 Med · 10 Hard)</span>
+          </div>
+          <div className="milestone-metric">
+            <span className="milestone-metric-val">10</span>
+            <span className="milestone-metric-lbl">GitHub Repositories</span>
+          </div>
         </div>
 
         {/* Coding Profiles Grid */}
@@ -110,6 +138,7 @@ export default function Achievements() {
               target="_blank"
               rel="noreferrer"
             >
+              {p.badge && <span className="achievement-badge-pill">{p.badge}</span>}
               <div
                 className="achievement-icon"
                 style={{
@@ -124,6 +153,16 @@ export default function Achievements() {
               <div className="achievement-username">{p.username}</div>
               <span className="achievement-stat">{p.stat}</span>
               <div className="achievement-desc">{p.desc}</div>
+
+              {p.tags && (
+                <div className="achievement-tags-list">
+                  {p.tags.map((tag, tIdx) => (
+                    <span key={tIdx} className="achievement-tag-pill">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              )}
             </a>
           ))}
         </div>
@@ -158,3 +197,4 @@ export default function Achievements() {
     </section>
   )
 }
+
