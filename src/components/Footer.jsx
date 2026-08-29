@@ -31,13 +31,13 @@ export default function Footer({ scrollTo }) {
           <div>
             <div className="footer-col-title">Connect</div>
             <ul className="footer-links" style={{ marginBottom: 16 }}>
-              <li><a href="https://github.com/raghav1245anand/raghav1245anand" target="_blank" rel="noreferrer">GitHub</a></li>
+              <li><a href="https://github.com/mihir1245anand" target="_blank" rel="noreferrer">GitHub</a></li>
               <li><a href="https://www.linkedin.com/in/mihir-anand-349a99424/" target="_blank" rel="noreferrer">LinkedIn</a></li>
               <li><a href="https://www.codechef.com/users/mihir1245anand" target="_blank" rel="noreferrer">CodeChef</a></li>
               <li><a href="https://leetcode.com/u/mihir1245anand/" target="_blank" rel="noreferrer">LeetCode</a></li>
             </ul>
             <div className="footer-social-links">
-              <a href="https://github.com/raghav1245anand/raghav1245anand" className="footer-social" target="_blank" rel="noreferrer" title="GitHub">
+              <a href="https://github.com/mihir1245anand" className="footer-social" target="_blank" rel="noreferrer" title="GitHub">
                 <Github size={16} />
               </a>
               <a href="https://www.linkedin.com/in/mihir-anand-349a99424/" className="footer-social" target="_blank" rel="noreferrer" title="LinkedIn">
