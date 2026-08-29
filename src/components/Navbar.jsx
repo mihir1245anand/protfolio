@@ -17,6 +17,7 @@ export default function Navbar({ activeSection, scrollTo }) {
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About' },
     { id: 'skills', label: 'Skills' },
+    { id: 'projects', label: 'Projects' },
     { id: 'experience', label: 'Experience' },
     { id: 'achievements', label: 'Achievements' },
     { id: 'resume', label: 'Resume' },
@@ -51,10 +52,15 @@ export default function Navbar({ activeSection, scrollTo }) {
           </ul>
 
           <div className="navbar-cta">
-            <button className="btn btn-primary" onClick={() => handleNavClick('resume')}>
+            <a
+              href="https://flowcv.com/resume/4a6cn46cb2oc"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Download size={14} />
               Resume
-            </button>
+            </a>
 
             <button
               className={`hamburger ${mobileMenuOpen ? 'open' : ''}`}
@@ -84,10 +90,15 @@ export default function Navbar({ activeSection, scrollTo }) {
           ))}
         </ul>
         <div className="mobile-menu-cta">
-          <button className="btn btn-primary" onClick={() => handleNavClick('resume')}>
+          <a
+            href="https://flowcv.com/resume/4a6cn46cb2oc"
+            className="btn btn-primary"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Download size={14} />
             Download Resume
-          </button>
+          </a>
         </div>
       </div>
     </>
