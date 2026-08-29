@@ -83,16 +83,21 @@ export default function Hero({ scrollTo }) {
           </p>
 
           <div className="hero-buttons">
-            <button className="btn btn-primary" onClick={() => scrollTo('skills')}>
+            <button className="btn btn-primary" onClick={() => scrollTo('projects')}>
               <Code size={16} />
-              Explore Skills
+              View Projects
               <ArrowRight size={14} />
             </button>
 
-            <button className="btn btn-outline" onClick={() => scrollTo('resume')}>
+            <a
+              href="https://flowcv.com/resume/4a6cn46cb2oc"
+              className="btn btn-outline"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FileText size={15} />
               Resume
-            </button>
+            </a>
 
             <button className="btn btn-ghost" onClick={() => scrollTo('contact')}>
               <Mail size={15} />
@@ -103,7 +108,7 @@ export default function Hero({ scrollTo }) {
           <div className="hero-socials">
             <span className="hero-socials-label">Find me on:</span>
             <a
-              href="https://github.com/raghav1245anand/raghav1245anand"
+              href="https://github.com/mihir1245anand"
               className="social-link"
               target="_blank"
               rel="noreferrer"
@@ -163,14 +168,15 @@ export default function Hero({ scrollTo }) {
               <div className="code-line"><span className="line-num">3</span><span className="line-content">&nbsp;&nbsp;<span className="prop">college</span>: <span className="str">"ABES Engineering College"</span>,</span></div>
               <div className="code-line"><span className="line-num">4</span><span className="line-content">&nbsp;&nbsp;<span className="prop">role</span>: <span className="str">"CSE Student"</span>,</span></div>
               <div className="code-line"><span className="line-num">5</span><span className="line-content">&nbsp;&nbsp;<span className="prop">skills</span>: [<span className="str">"C++"</span>, <span className="str">"DSA"</span>, <span className="str">"React"</span>, <span className="str">"JS"</span>],</span></div>
-              <div className="code-line"><span className="line-num">6</span><span className="line-content">&nbsp;&nbsp;<span className="prop">dsaProblems</span>: <span className="num">200</span>,</span></div>
-              <div className="code-line"><span className="line-num">7</span><span className="line-content">&nbsp;&nbsp;<span className="prop">codechefRating</span>: <span className="str">"1★"</span>,</span></div>
-              <div className="code-line"><span className="line-num">8</span><span className="line-content">&nbsp;&nbsp;<span className="prop">openToWork</span>: <span className="kw">true</span>,</span></div>
-              <div className="code-line"><span className="line-num">9</span><span className="line-content">&nbsp;&nbsp;<span className="prop">focus</span>: <span className="str">"Problem Solving & Clean Code 🚀"</span>,</span></div>
-              <div className="code-line"><span className="line-num">10</span><span className="line-content">&#125;;</span></div>
-              <div className="code-line"><span className="line-num">11</span><span className="line-content"></span></div>
-              <div className="code-line"><span className="line-num">12</span><span className="line-content"><span className="cmt">// 🎯 Goal: Software / Frontend Internship</span></span></div>
-              <div className="code-line"><span className="line-num">13</span><span className="line-content"><span className="kw">export default</span> developer;</span></div>
+              <div className="code-line"><span className="line-num">6</span><span className="line-content">&nbsp;&nbsp;<span className="prop">dsaProblems</span>: <span className="num">320</span>,</span></div>
+              <div className="code-line"><span className="line-num">7</span><span className="line-content">&nbsp;&nbsp;<span className="prop">codechefSolved</span>: <span className="num">266</span>,</span></div>
+              <div className="code-line"><span className="line-num">8</span><span className="line-content">&nbsp;&nbsp;<span className="prop">leetcodeSolved</span>: <span className="num">55</span>,</span></div>
+              <div className="code-line"><span className="line-num">9</span><span className="line-content">&nbsp;&nbsp;<span className="prop">openToWork</span>: <span className="kw">true</span>,</span></div>
+              <div className="code-line"><span className="line-num">10</span><span className="line-content">&nbsp;&nbsp;<span className="prop">focus</span>: <span className="str">"Problem Solving & Clean Code 🚀"</span>,</span></div>
+              <div className="code-line"><span className="line-num">11</span><span className="line-content">&#125;;</span></div>
+              <div className="code-line"><span className="line-num">12</span><span className="line-content"></span></div>
+              <div className="code-line"><span className="line-num">13</span><span className="line-content"><span className="cmt">// 🎯 Goal: Software / Frontend Internship</span></span></div>
+              <div className="code-line"><span className="line-num">14</span><span className="line-content"><span className="kw">export default</span> developer;</span></div>
             </div>
           </div>
         </div>
