@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Mail, Linkedin, Github, Award, Send, CheckCircle2, Loader2 } from 'lucide-react'
+import { Mail, Linkedin, Github, Award, Phone, Send, CheckCircle2, Loader2 } from 'lucide-react'
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -77,7 +77,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="https://github.com/raghav1245anand/raghav1245anand"
+                href="https://github.com/mihir1245anand"
                 className="contact-item"
                 target="_blank"
                 rel="noreferrer"
@@ -87,7 +87,17 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="contact-item-label">GitHub</div>
-                  <div className="contact-item-value">github.com/raghav1245anand</div>
+                  <div className="contact-item-value">github.com/mihir1245anand</div>
+                </div>
+              </a>
+
+              <a href="tel:+918780185329" className="contact-item">
+                <div className="contact-item-icon">
+                  <Phone size={18} />
+                </div>
+                <div>
+                  <div className="contact-item-label">Phone</div>
+                  <div className="contact-item-value">+91 87801 85329</div>
                 </div>
               </a>
 
@@ -109,7 +119,7 @@ export default function Contact() {
 
             <div className="contact-socials">
               <a
-                href="https://github.com/raghav1245anand/raghav1245anand"
+                href="https://github.com/mihir1245anand"
                 className="contact-social-btn"
                 target="_blank"
                 rel="noreferrer"
