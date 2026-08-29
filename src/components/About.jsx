@@ -43,20 +43,20 @@ export default function About({ scrollTo }) {
 
               <div className="about-stats">
                 <div className="stat-box">
-                  <div className="stat-value">200+</div>
-                  <div className="stat-label">DSA Problems</div>
+                  <div className="stat-value">3+</div>
+                  <div className="stat-label">Featured Projects</div>
                 </div>
                 <div className="stat-box">
-                  <div className="stat-value">1★</div>
-                  <div className="stat-label">CodeChef Rating</div>
+                  <div className="stat-value">320+</div>
+                  <div className="stat-label">DSA Problems</div>
                 </div>
                 <div className="stat-box">
                   <div className="stat-value">2+</div>
                   <div className="stat-label">Years Learning</div>
                 </div>
                 <div className="stat-box">
-                  <div className="stat-value">10+</div>
-                  <div className="stat-label">Tech Stack</div>
+                  <div className="stat-value">5</div>
+                  <div className="stat-label">Certifications</div>
                 </div>
               </div>
             </div>
