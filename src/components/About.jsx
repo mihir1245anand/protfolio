@@ -47,7 +47,7 @@ export default function About({ scrollTo }) {
                   <div className="stat-label">Featured Projects</div>
                 </div>
                 <div className="stat-box">
-                  <div className="stat-value">323+</div>
+                  <div className="stat-value">325+</div>
                   <div className="stat-label">DSA Problems</div>
                 </div>
                 <div className="stat-box">
@@ -80,7 +80,7 @@ export default function About({ scrollTo }) {
                 <span className="highlight-icon">
                   <CheckCircle2 size={18} />
                 </span>
-                Practicing DSA daily — 323+ problems solved across CodeChef (267) & LeetCode (56)
+                Practicing DSA daily — 325+ problems solved across CodeChef (268) & LeetCode (57)
               </div>
               <div className="highlight-item">
                 <span className="highlight-icon">

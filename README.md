@@ -44,7 +44,7 @@ Structured to highlight real-world engineering projects, algorithmic problem-sol
 - ⚡ **Dynamic Typewriter Subtitle:** Multi-role animated typography with smooth character typing, deleting cycles, and laser cursor.
 - 💻 **Interactive macOS Code Card:** Live syntax-highlighted IDE card with macOS window dots and developer metadata.
 - 🚀 **Featured Projects Showcase:** Filterable project catalog with live previews, GitHub repository links, and feature bullet breakdowns.
-- 📊 **Verified Live Coding Stats:** Integrated metrics showing **323+ DSA Problems Solved** (267 on CodeChef · 1★ Rated / 1020 Rating, 56 on LeetCode: 26 Easy / 20 Med / 10 Hard · 32-Day Streak, 10 GitHub Repositories).
+- 📊 **Verified Live Coding Stats:** Integrated metrics showing **325+ DSA Problems Solved** (268 on CodeChef · 1★ Rated / 1020 Rating, 57 on LeetCode: 26 Easy / 21 Med / 10 Hard · 33-Day Streak, 10 GitHub Repositories).
 - 📜 **Industry Certifications Grid:** Direct external verification links for certificates from **Deloitte**, **Mastercard**, **IBM**, and **Unstop**.
 - 📄 **1-Click FlowCV Resume:** Direct resume viewer and download buttons in the navbar, hero, and dedicated resume card.
 - 📬 **Interactive Contact Form:** Client-side input validation, simulated asynchronous submission loader, and confirmation feedback.
@@ -56,10 +56,10 @@ Structured to highlight real-world engineering projects, algorithmic problem-sol
 
 | Platform | Handle | Verified Metrics | Key Highlights & Breakdown | Profile Link |
 | :--- | :--- | :---: | :--- | :---: |
-| **LeetCode** | [`@mihir1245anand`](https://leetcode.com/u/mihir1245anand/) | **56 Solved** | **26 Easy** · **20 Medium** · **10 Hard**<br/>🔥 **32-Day Active Streak** · 75 Submissions | [View Profile](https://leetcode.com/u/mihir1245anand/) |
-| **CodeChef** | [`@mihir1245anand`](https://www.codechef.com/users/mihir1245anand) | **267 Solved** | ⭐ **1★ Rated (Div 4)** · **1020 Current Rating** (1025 Peak)<br/>Consistent Contest Solver | [View Profile](https://www.codechef.com/users/mihir1245anand) |
+| **LeetCode** | [`@mihir1245anand`](https://leetcode.com/u/mihir1245anand/) | **57 Solved** | **26 Easy** · **21 Medium** · **10 Hard**<br/>🔥 **33-Day Active Streak** · 78 Submissions | [View Profile](https://leetcode.com/u/mihir1245anand/) |
+| **CodeChef** | [`@mihir1245anand`](https://www.codechef.com/users/mihir1245anand) | **268 Solved** | ⭐ **1★ Rated (Div 4)** · **1020 Current Rating** (1025 Peak)<br/>Consistent Contest Solver | [View Profile](https://www.codechef.com/users/mihir1245anand) |
 | **GitHub** | [`@mihir1245anand`](https://github.com/mihir1245anand) | **10 Repos** | 🚀 React 19 web apps, C++ DSA solutions, and AI tools | [View Profile](https://github.com/mihir1245anand) |
-| **Total DSA Practice** | *Cross-Platform* | **323+ Solved** | Mastered arrays, strings, two pointers, recursion, dynamic programming & trees | — |
+| **Total DSA Practice** | *Cross-Platform* | **325+ Solved** | Mastered arrays, strings, two pointers, recursion, dynamic programming & trees | — |
 
 ---
 

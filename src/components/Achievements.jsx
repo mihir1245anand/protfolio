@@ -5,10 +5,10 @@ const PROFILES = [
   {
     platform: 'LeetCode',
     username: '@mihir1245anand',
-    stat: '56 Solved',
-    desc: '26 Easy · 20 Medium · 10 Hard',
-    badge: '32-Day Streak 🔥',
-    tags: ['26 Easy', '20 Medium', '10 Hard', '32d Streak', '75 Submissions'],
+    stat: '57 Solved',
+    desc: '26 Easy · 21 Medium · 10 Hard',
+    badge: '33-Day Streak 🔥',
+    tags: ['26 Easy', '21 Medium', '10 Hard', '33d Streak', '78 Submissions'],
     url: 'https://leetcode.com/u/mihir1245anand/',
     iconBg: 'rgba(245, 158, 11, 0.1)',
     iconBorder: 'rgba(245, 158, 11, 0.25)',
@@ -22,10 +22,10 @@ const PROFILES = [
   {
     platform: 'CodeChef',
     username: '@mihir1245anand',
-    stat: '267 Solved',
-    desc: '1★ Rated (Div 4) · 1020 Rating',
+    stat: '268 Solved',
+    desc: '1★ Rated (Div 4) · 1020 Rating (Peak 1025)',
     badge: '1★ Coder ⭐',
-    tags: ['1★ Rated', '1020 Rating', 'Div 4', '267 Solved', 'C++ Mastery'],
+    tags: ['1★ Rated', '1020 Rating', 'Peak 1025', '268 Solved', 'Div 4'],
     url: 'https://www.codechef.com/users/mihir1245anand',
     iconBg: 'rgba(168, 85, 247, 0.1)',
     iconBorder: 'rgba(168, 85, 247, 0.25)',
@@ -111,16 +111,16 @@ export default function Achievements() {
         {/* Highlight Milestone Summary Banner */}
         <div className="milestone-summary-bar fade-in-element visible">
           <div className="milestone-metric">
-            <span className="milestone-metric-val">323+</span>
+            <span className="milestone-metric-val">325+</span>
             <span className="milestone-metric-lbl">Total DSA Problems Solved</span>
           </div>
           <div className="milestone-metric">
-            <span className="milestone-metric-val">267</span>
+            <span className="milestone-metric-val">268</span>
             <span className="milestone-metric-lbl">CodeChef Solved · 1★ (1020)</span>
           </div>
           <div className="milestone-metric">
-            <span className="milestone-metric-val">56</span>
-            <span className="milestone-metric-lbl">LeetCode Solved (20 Med · 10 Hard)</span>
+            <span className="milestone-metric-val">57</span>
+            <span className="milestone-metric-lbl">LeetCode Solved (21 Med · 10 Hard)</span>
           </div>
           <div className="milestone-metric">
             <span className="milestone-metric-val">10</span>

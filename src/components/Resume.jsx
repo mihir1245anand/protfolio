@@ -3,7 +3,7 @@ import { FileText, Eye } from 'lucide-react'
 
 export default function Resume({ scrollTo }) {
   const highlights = [
-    '✓ 200+ DSA problems solved across platforms',
+    '✓ 325+ DSA problems solved across platforms',
     '✓ CodeChef 1★ Rated Competitive Programmer',
     '✓ Strong foundation in C++, OOP & Problem Solving',
     '✓ Proficient in JavaScript, HTML5, CSS3 & React',
