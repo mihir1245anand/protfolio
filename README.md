@@ -3,13 +3,14 @@
 # ⚡ Mihir Anand — Developer Portfolio
 
 <p align="center">
-  <strong>Modern, High-Performance Personal Portfolio & Showcase for a B.Tech CSE Student</strong>
+  <strong>Modern, High-Performance Personal Portfolio & Showcase for a B.Tech CSE Student & SDE Aspirant</strong>
 </p>
 
 [![Vercel Deployment](https://img.shields.io/badge/Deployed-Vercel-black?style=for-the-badge&logo=vercel)](https://protfolio-flame-three.vercel.app)
 [![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-6.1-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
+[![Lucide Icons](https://img.shields.io/badge/Lucide_Icons-0.475-F05032?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-10b981.svg?style=for-the-badge)](LICENSE)
 
 <br />
@@ -18,37 +19,63 @@
   <strong>🌐 Explore Live Website »</strong>
 </a>
 &nbsp;·&nbsp;
+<a href="https://flowcv.com/resume/4a6cn46cb2oc">
+  <strong>📄 View Resume »</strong>
+</a>
+&nbsp;·&nbsp;
 <a href="https://github.com/mihir1245anand/protfolio/issues">
   <strong>🐛 Report Bug »</strong>
 </a>
 &nbsp;·&nbsp;
-<a href="https://flowcv.com/resume/4a6cn46cb2oc">
-  <strong>📄 View Resume »</strong>
+<a href="https://github.com/mihir1245anand/protfolio/pulls">
+  <strong>💡 Request Feature »</strong>
 </a>
 
 </div>
 
 ---
 
-## 📖 Overview
+## 📑 Table of Contents
 
-A sleek, state-of-the-art developer portfolio web application built with **React 19**, **Vite**, and **Modern CSS**. Designed with high visual fidelity, glassmorphic UI elements, dynamic typing animations, and verified coding milestones.
-
-Structured to highlight real-world engineering projects, algorithmic problem-solving capabilities across **CodeChef** & **LeetCode**, industry-recognized certifications, and a direct channel for internship opportunities.
+- [📖 Overview](#-overview)
+- [🌟 Key Features & Sections](#-key-features--sections)
+- [🏆 Live Coding Profiles & Milestones](#-live-coding-profiles--milestones)
+- [🛠️ Featured Projects](#️-featured-projects)
+- [📜 Verified Certifications](#-verified-certifications)
+- [💻 Tech Stack & Architecture](#-tech-stack--architecture)
+- [📁 Project Structure](#-project-structure)
+- [🚀 Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation & Local Setup](#installation--local-setup)
+  - [Available Scripts](#available-scripts)
+  - [Deployment](#deployment)
+- [📬 Connect & Contact](#-connect--contact)
+- [📄 License](#-license)
 
 ---
 
-## 🌟 Key Features
+## 📖 Overview
 
-- 🎨 **Cyberpunk Dark Aesthetic:** Hand-crafted color system with dark obsidian tones (`#050b0a`), neon cyan/emerald glowing radial orbs, and glassmorphic card borders.
-- ⚡ **Dynamic Typewriter Subtitle:** Multi-role animated typography with smooth character typing, deleting cycles, and laser cursor.
-- 💻 **Interactive macOS Code Card:** Live syntax-highlighted IDE card with macOS window dots and developer metadata.
-- 🚀 **Featured Projects Showcase:** Filterable project catalog with live previews, GitHub repository links, and feature bullet breakdowns.
-- 📊 **Verified Live Coding Stats:** Integrated metrics showing **325+ DSA Problems Solved** (268 on CodeChef · 1★ Rated / 1020 Rating, 57 on LeetCode: 26 Easy / 21 Med / 10 Hard · 33-Day Streak, 10 GitHub Repositories).
-- 📜 **Industry Certifications Grid:** Direct external verification links for certificates from **Deloitte**, **Mastercard**, **IBM**, and **Unstop**.
-- 📄 **1-Click FlowCV Resume:** Direct resume viewer and download buttons in the navbar, hero, and dedicated resume card.
-- 📬 **Interactive Contact Form:** Client-side input validation, simulated asynchronous submission loader, and confirmation feedback.
-- 📱 **Mobile-First Responsive Design:** Smooth sliding drawer menu, fluid typography, and touch-optimized components.
+A state-of-the-art, high-performance personal developer portfolio web application built with **React 19**, **Vite 6**, and **Modern CSS**. Designed with high visual fidelity, glassmorphic UI elements, dynamic typing animations, responsive layout architecture, and verified coding milestones.
+
+Built to showcase real-world engineering projects, algorithmic problem-solving capabilities across **CodeChef** & **LeetCode**, industry-recognized certifications, technical proficiencies, and an open channel for internship and software engineering opportunities.
+
+---
+
+## 🌟 Key Features & Sections
+
+- 🎨 **Obsidian Dark Aesthetic & Glassmorphism:** Hand-crafted design system with deep dark obsidian tones (`#050b0a`), neon cyan/emerald radial glowing orbs, and glassmorphic translucent borders.
+- ⚡ **Dynamic Typewriter Subtitle:** Multi-role animated typography with smooth character typing, backspace deleting cycles, and a custom pulsing laser cursor.
+- 💻 **Interactive macOS Code Card:** Live syntax-highlighted IDE card with macOS window dots and real-time developer profile metadata (`developer.js`).
+- 🙋‍♂️ **About & Background Story:** Personal background, education info at **ABES Engineering College** (2029 graduation), core goals, and stat highlight counters.
+- 📊 **Interactive Skills Matrix:** Visual categorization across Languages, Core CS Concepts, Frameworks & Libraries, Tools & Platforms, and Currently Learning with animated progress bars on scroll.
+- 🚀 **Filterable Projects Catalog:** Showcase with live demo previews, GitHub repository links, category filters, and bulleted feature breakdowns.
+- 📈 **Career & Learning Timeline:** Interactive chronological timeline covering competitive programming, modern web development, hackathons, and open-source practices.
+- 🏆 **Verified Live Coding Stats:** Integrated metrics showing **325+ DSA Problems Solved** (268 on CodeChef · 1★ Rated / 1020 Rating, 57 on LeetCode: 26 Easy / 21 Med / 10 Hard · 33-Day Streak, 10 GitHub Repositories).
+- 📜 **Industry Certifications Grid:** Direct external verification links for credentials from **Deloitte**, **Mastercard**, **IBM**, and **Unstop**.
+- 📄 **1-Click FlowCV Resume:** Direct resume viewer and download buttons in the navbar, hero, and dedicated resume showcase card.
+- 📬 **Interactive Contact Form & Socials:** Client-side input validation, simulated asynchronous submission loader, and success feedback banner.
+- 📱 **Mobile-First Responsive Navigation:** Smooth sliding drawer menu, active section scroll spy listener, and floating back-to-top button.
 
 ---
 
@@ -59,17 +86,18 @@ Structured to highlight real-world engineering projects, algorithmic problem-sol
 | **LeetCode** | [`@mihir1245anand`](https://leetcode.com/u/mihir1245anand/) | **57 Solved** | **26 Easy** · **21 Medium** · **10 Hard**<br/>🔥 **33-Day Active Streak** · 78 Submissions | [View Profile](https://leetcode.com/u/mihir1245anand/) |
 | **CodeChef** | [`@mihir1245anand`](https://www.codechef.com/users/mihir1245anand) | **268 Solved** | ⭐ **1★ Rated (Div 4)** · **1020 Current Rating** (1025 Peak)<br/>Consistent Contest Solver | [View Profile](https://www.codechef.com/users/mihir1245anand) |
 | **GitHub** | [`@mihir1245anand`](https://github.com/mihir1245anand) | **10 Repos** | 🚀 React 19 web apps, C++ DSA solutions, and AI tools | [View Profile](https://github.com/mihir1245anand) |
-| **Total DSA Practice** | *Cross-Platform* | **325+ Solved** | Mastered arrays, strings, two pointers, recursion, dynamic programming & trees | — |
+| **LinkedIn** | [`in/mihir-anand-349a99424`](https://www.linkedin.com/in/mihir-anand-349a99424/) | **500+ Network** | 💼 SDE Aspirant · B.Tech CSE (2029) · Open to Work | [View Profile](https://www.linkedin.com/in/mihir-anand-349a99424/) |
+| **Total DSA Practice** | *Cross-Platform* | **325+ Solved** | Arrays, strings, two pointers, recursion, dynamic programming & trees | — |
 
 ---
 
 ## 🛠️ Featured Projects
 
-| Project | Category | Tech Stack | Live Demo | Repository |
-| :--- | :--- | :--- | :---: | :---: |
-| **Amazon E-Commerce Clone** | Web Development | React 19, Vite, CSS3, State Management | [Live Demo](https://amazonclone-livid-gamma.vercel.app/) | [GitHub](https://github.com/mihir1245anand/Amazon-clone) |
-| **Vaani-Setu (वाणी-सेतु)** | AI & Web App | React.js, Speech API, Vite, Multilingual | [Live Demo](https://vaani-setu-rho.vercel.app) | [GitHub](https://github.com/mihir1245anand/Vaani_setu) |
-| **DevFolio — Portfolio** | Web Development | React 19, Vite, Glassmorphism, CSS3 | [Live Demo](https://protfolio-flame-three.vercel.app) | [GitHub](https://github.com/mihir1245anand/protfolio) |
+| Project | Category | Tech Stack | Highlights | Links |
+| :--- | :--- | :--- | :--- | :---: |
+| **Vaani-Setu (वाणी-सेतु)** | AI & Web App | React.js, Speech API, Vite, CSS3 | Multilingual citizen welfare assistant supporting 12+ Indian languages with voice recognition and scheme eligibility verification. | [Live Demo](https://vaani-setu-rho.vercel.app) &nbsp;·&nbsp; [GitHub](https://github.com/mihir1245anand/Vaani_setu) |
+| **Amazon E-Commerce Clone** | Web Development | React 19, JavaScript, Vite, CSS3 | E-commerce web application with interactive product catalog, dynamic cart management, real-time price calculations, and responsive header. | [Live Demo](https://amazonclone-livid-gamma.vercel.app/) &nbsp;·&nbsp; [GitHub](https://github.com/mihir1245anand/Amazon-clone) |
+| **DevFolio — Portfolio** | Web Development | React 19, Vite 6, Modern CSS3 | Ultra-responsive cyberpunk developer showcase featuring animated typing, live coding milestones, certifications, and contact pipeline. | [Live Demo](https://protfolio-flame-three.vercel.app) &nbsp;·&nbsp; [GitHub](https://github.com/mihir1245anand/protfolio) |
 
 ---
 
@@ -83,14 +111,14 @@ Structured to highlight real-world engineering projects, algorithmic problem-sol
 
 ---
 
-## 💻 Tech Stack
+## 💻 Tech Stack & Architecture
 
-- **Frontend Core:** React 19, JavaScript (ES6+), HTML5 Semantic Structure
-- **Build Tool:** Vite 6
-- **Styling:** Custom CSS3, CSS Custom Properties (Variables), Glassmorphism, Responsive Grid & Flexbox
-- **Icons:** Lucide React
+- **Frontend Core:** React 19.0, JavaScript (ES6+), HTML5 Semantic Architecture
+- **Build Tooling:** Vite 6.1, PostCSS / Rollup Bundler
+- **Styling & Design System:** Custom CSS3 with Design Tokens, Glassmorphism, CSS Grid & Flexbox, Keyframe Micro-animations
+- **Iconography:** Lucide React (`^0.475.0`)
 - **Typography:** Inter & JetBrains Mono (Google Fonts)
-- **Deployment:** Vercel
+- **Hosting & CI/CD:** Vercel
 
 ---
 
@@ -98,26 +126,27 @@ Structured to highlight real-world engineering projects, algorithmic problem-sol
 
 ```bash
 protfolio/
-├── public/                  # Static assets & icons
+├── public/                  # Static public assets & favicon icons
 ├── src/
 │   ├── components/
-│   │   ├── About.jsx        # Bio story, education info, and 4 stat counters
+│   │   ├── About.jsx        # Bio story, education info & highlight stat boxes
 │   │   ├── Achievements.jsx # LeetCode, CodeChef, GitHub cards & Certifications
-│   │   ├── Contact.jsx      # Contact items, phone, email & message form
-│   │   ├── Experience.jsx   # Timeline of competitive programming & learning
-│   │   ├── Footer.jsx       # Branding, navigation links & social icons
+│   │   ├── Contact.jsx      # Contact information, phone, email & message form
+│   │   ├── Experience.jsx   # Timeline of competitive programming & learning journey
+│   │   ├── Footer.jsx       # Branding, quick navigation & social media links
 │   │   ├── Hero.jsx         # Status badge, typewriter role & macOS code card
-│   │   ├── Navbar.jsx       # Sticky header with active scroll spy & drawer
-│   │   ├── Projects.jsx     # Filterable project showcase cards
+│   │   ├── Navbar.jsx       # Sticky header with active scroll spy & drawer menu
+│   │   ├── Projects.jsx     # Filterable project showcase cards with live links
 │   │   ├── Resume.jsx       # Resume snapshot with direct FlowCV link
-│   │   └── ScrollToTop.jsx  # Floating back-to-top button
+│   │   ├── ScrollToTop.jsx  # Floating back-to-top scroll trigger button
+│   │   └── Skills.jsx       # Categorized skills matrix with animated progress bars
 │   ├── App.jsx              # Main layout wrapper & scroll spy listener
-│   ├── index.css            # Complete design system tokens & styles
-│   └── main.jsx             # React DOM root entry
+│   ├── index.css            # Complete design system tokens & glassmorphic styles
+│   └── main.jsx             # React DOM root entry point
 ├── index.html               # HTML5 shell & SEO meta tags
-├── package.json             # Scripts & dependencies
-├── vite.config.js           # Vite configuration
-└── README.md                # Project documentation
+├── package.json             # Scripts & project dependencies
+├── vite.config.js           # Vite build configuration
+└── README.md                # Comprehensive project documentation
 ```
 
 ---
@@ -125,6 +154,7 @@ protfolio/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - [Node.js](https://nodejs.org/) (version 18 or higher recommended)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
@@ -136,7 +166,7 @@ protfolio/
    cd protfolio
    ```
 
-2. **Install dependencies:**
+2. **Install project dependencies:**
    ```bash
    npm install
    ```
@@ -145,12 +175,28 @@ protfolio/
    ```bash
    npm run dev
    ```
-   Open `http://localhost:5174` (or port shown in terminal) in your browser.
+   Open `http://localhost:5173` (or the port shown in your terminal) in your browser.
 
 4. **Build for production:**
    ```bash
    npm run build
    ```
+
+### Available Scripts
+
+| Command | Description |
+| :--- | :--- |
+| `npm run dev` | Starts the Vite local development server with hot module replacement (HMR). |
+| `npm run build` | Bundles and minifies the application into the `dist/` folder for production. |
+| `npm run preview` | Locally serves the production build from `dist/` to verify performance. |
+
+### Deployment
+
+This portfolio is configured for zero-config deployment on **Vercel**:
+1. Push your changes to the `main` branch on GitHub.
+2. Import the repository into [Vercel](https://vercel.com).
+3. Set the Framework Preset to **Vite** (Build command: `npm run build`, Output directory: `dist`).
+4. Click **Deploy**.
 
 ---
 
@@ -164,12 +210,18 @@ protfolio/
 [![LeetCode](https://img.shields.io/badge/LeetCode-mihir1245anand-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/mihir1245anand/)
 [![Email](https://img.shields.io/badge/Email-raghavanand034@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raghavanand034@gmail.com)
 
-**📱 Phone:** [+91 87801 85329](tel:+918780185329) &nbsp;·&nbsp; **📍 Location:** India &nbsp;·&nbsp; **🎓 College:** ABES Engineering College
+<br />
+
+**📱 Phone:** [+91 87801 85329](tel:+918780185329) &nbsp;·&nbsp; **📍 Location:** India &nbsp;·&nbsp; **🎓 College:** ABES Engineering College (2029)
 
 </div>
 
 ---
 
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE) — feel free to use and customize it for your own portfolio.
+
 <div align="center">
-  <sub>© 2026 Mihir Anand. Built with ❤️ using React, JavaScript & Modern CSS.</sub>
+  <sub>© 2026 Mihir Anand. Built with ❤️ using React 19, JavaScript & Modern CSS.</sub>
 </div>
