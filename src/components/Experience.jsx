@@ -8,35 +8,35 @@ const TIMELINE_DATA = [
     org: 'CodeChef · LeetCode · HackerRank',
     date: '2023 — Present',
     title: 'Competitive Programming & DSA Practice',
-    desc: 'Solved 342+ DSA problems across platforms (278 on CodeChef, 64 on LeetCode) covering arrays, strings, recursion, trees, and dynamic programming. Regularly participating in rated coding contests to boost speed, accuracy, and algorithmic insight.',
+    desc: 'Solved 377+ DSA problems across platforms (297 on CodeChef, 80 on LeetCode: 33 Easy, 32 Med, 15 Hard with 55-day streak) covering arrays, strings, dynamic programming, trees, and recursion. Regularly competing in rated contests (1092 CodeChef peak rating).',
     skills: ['C++', 'DSA', 'Problem Solving', 'Algorithms']
   },
   {
     icon: BookOpen,
     color: 'var(--accent-blue)',
-    org: 'Online Platforms & Documentation',
+    org: 'Modern Web Development',
     date: '2023 — Present',
-    title: 'Self-Paced Web Development Learning',
-    desc: 'Completed in-depth studies in modern frontend engineering — HTML5, CSS3, JavaScript (ES6+), and React.js. Focused on clean architecture, component composition, and responsive design systems.',
-    skills: ['JavaScript', 'React.js', 'HTML5', 'CSS3']
+    title: 'Frontend & Full-Stack Web Development',
+    desc: 'Engineering interactive web applications using React, JavaScript, Vite, HTML5, and CSS3. Focused on clean architecture, component design systems, and responsive user experiences.',
+    skills: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'Vite']
   },
   {
     icon: Trophy,
     color: 'var(--accent-orange)',
     org: 'College & Tech Communities',
-    date: '2024',
-    title: 'Hackathon & Technical Workshops',
-    desc: 'Participated in college hackathons and collaborative workshops. Practiced rapid problem decomposition, agile brainstorming, and peer programming with fellow engineering students.',
-    skills: ['Teamwork', 'Problem Decomposition', 'Collaboration']
+    date: '2024 — Present',
+    title: 'Hackathons & Technical Build Sprints',
+    desc: 'Participated in college hackathons and collaborative workshops. Practiced rapid problem decomposition, agile brainstorming, and team project delivery.',
+    skills: ['Teamwork', 'Rapid Prototyping', 'Collaboration']
   },
   {
     icon: GitFork,
     color: 'var(--accent-green)',
     org: 'GitHub Community',
     date: '2024 — Present',
-    title: 'Version Control & Open Source Collaboration',
-    desc: 'Practicing standard Git workflows: branching, rebasing, pull requests, issue tracking, and repository documentation to build professional software engineering discipline.',
-    skills: ['Git', 'GitHub', 'Collaboration']
+    title: 'Open-Source & Version Control Disciplines',
+    desc: 'Maintained 12 public repositories implementing structured Git workflows: branching, rebasing, pull requests, and comprehensive documentation.',
+    skills: ['Git', 'GitHub', 'CI/CD', 'Documentation']
   }
 ]
 

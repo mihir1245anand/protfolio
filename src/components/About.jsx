@@ -37,7 +37,7 @@ export default function About({ scrollTo }) {
                 </li>
                 <li className="about-info-item">
                   <Target className="about-info-icon" size={18} />
-                  <span><span className="about-info-label">Goal:</span>Software / Frontend Internship</span>
+                  <span><span className="about-info-label">Goal:</span>Software / Full-Stack Internship</span>
                 </li>
               </ul>
 
@@ -47,12 +47,12 @@ export default function About({ scrollTo }) {
                   <div className="stat-label">Featured Projects</div>
                 </div>
                 <div className="stat-box">
-                  <div className="stat-value">342+</div>
+                  <div className="stat-value">377+</div>
                   <div className="stat-label">DSA Problems</div>
                 </div>
                 <div className="stat-box">
-                  <div className="stat-value">2+</div>
-                  <div className="stat-label">Years Learning</div>
+                  <div className="stat-value">12</div>
+                  <div className="stat-label">Repositories</div>
                 </div>
                 <div className="stat-box">
                   <div className="stat-value">5</div>
@@ -65,13 +65,13 @@ export default function About({ scrollTo }) {
           <div className="about-content fade-in-element visible">
             <div className="about-bio">
               <p>
-                Hey there! I'm <strong>Mihir Anand</strong>, a 2nd-year B.Tech Computer Science student at <strong>ABES Engineering College</strong> with a deep passion for software engineering, problem solving, and modern web development.
+                Hey there! I'm <strong>Mihir Anand</strong>, a 2nd-year B.Tech Computer Science student at <strong>ABES Engineering College</strong> with a deep passion for software engineering, web development, and algorithmic problem solving.
               </p>
               <p>
-                Over the past two years, I've been on a consistent self-learning journey — mastering Data Structures and Algorithms in C++, practicing competitive programming on CodeChef and LeetCode, and developing a solid foundation in core Computer Science concepts and modern frontend technologies like React and JavaScript.
+                Over the past two years, I've pursued a consistent learning journey — mastering Data Structures & Algorithms in C++, practicing competitive programming on CodeChef and LeetCode, and developing modern web applications using React, JavaScript, Node.js, and CSS3.
               </p>
               <p>
-                I'm driven by curiosity, dedication, and a hunger to grow. Even in my 2nd year, I'm actively seeking internship opportunities where I can contribute to real-world software systems, learn from experienced engineers, and accelerate my career.
+                I'm driven by curiosity, engineering discipline, and a hunger to build high-impact products. I'm actively seeking internship opportunities where I can contribute to production software, collaborate with experienced engineers, and deliver robust solutions.
               </p>
             </div>
 
@@ -80,25 +80,25 @@ export default function About({ scrollTo }) {
                 <span className="highlight-icon">
                   <CheckCircle2 size={18} />
                 </span>
-                Practicing DSA daily — 342+ problems solved across CodeChef (278) & LeetCode (64)
+                Practicing DSA daily — 377+ problems solved across CodeChef (297) & LeetCode (80)
               </div>
               <div className="highlight-item">
                 <span className="highlight-icon">
                   <CheckCircle2 size={18} />
                 </span>
-                Strong in C++, Object-Oriented Programming, and algorithmic analysis
+                Strong in C++, Object-Oriented Programming, and algorithmic problem solving
               </div>
               <div className="highlight-item">
                 <span className="highlight-icon">
                   <CheckCircle2 size={18} />
                 </span>
-                Building modern UI components with JavaScript, HTML5, CSS3 & React
+                Building modern web applications with React, JavaScript, Vite, HTML5 & CSS3
               </div>
               <div className="highlight-item">
                 <span className="highlight-icon">
                   <CheckCircle2 size={18} />
                 </span>
-                Actively seeking SDE / Frontend developer internship opportunities
+                Actively seeking SDE / Frontend / Software developer internship opportunities
               </div>
             </div>
 

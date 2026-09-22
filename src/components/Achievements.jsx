@@ -5,10 +5,10 @@ const PROFILES = [
   {
     platform: 'LeetCode',
     username: '@mihir1245anand',
-    stat: '64 Solved',
-    desc: '28 Easy · 25 Medium · 11 Hard',
-    badge: '40-Day Streak 🔥',
-    tags: ['28 Easy', '25 Medium', '11 Hard', '40d Streak', '95 Submissions'],
+    stat: '80 Solved',
+    desc: '33 Easy · 32 Medium · 15 Hard',
+    badge: '55-Day Streak 🔥',
+    tags: ['33 Easy', '32 Medium', '15 Hard', '55d Streak', '128 Submissions'],
     url: 'https://leetcode.com/u/mihir1245anand/',
     iconBg: 'rgba(245, 158, 11, 0.1)',
     iconBorder: 'rgba(245, 158, 11, 0.25)',
@@ -22,10 +22,10 @@ const PROFILES = [
   {
     platform: 'CodeChef',
     username: '@mihir1245anand',
-    stat: '278 Solved',
-    desc: '1★ Rated (Div 4) · 1055 Rating (Peak 1055)',
+    stat: '297 Solved',
+    desc: '1★ Rated (Div 4) · 1092 Rating (Peak 1092)',
     badge: '1★ Coder ⭐',
-    tags: ['1★ Rated', '1055 Rating', 'Peak 1055', '278 Solved', 'Div 4'],
+    tags: ['1★ Rated', '1092 Rating', 'Peak 1092', '297 Solved', '7 Contests'],
     url: 'https://www.codechef.com/users/mihir1245anand',
     iconBg: 'rgba(168, 85, 247, 0.1)',
     iconBorder: 'rgba(168, 85, 247, 0.25)',
@@ -35,10 +35,10 @@ const PROFILES = [
   {
     platform: 'GitHub',
     username: '@mihir1245anand',
-    stat: '10 Repos',
-    desc: 'Full-Stack Apps, DSA & AI Tools',
+    stat: '12 Repos',
+    desc: 'Full-Stack Apps, DSA & Web Solutions',
     badge: 'Active Builder 🚀',
-    tags: ['10 Repos', 'React 19', 'C++', 'JavaScript', 'Vite'],
+    tags: ['12 Repos', 'React 19', 'C++', 'JavaScript', 'Vite'],
     url: 'https://github.com/mihir1245anand',
     iconBg: 'rgba(59, 130, 246, 0.1)',
     iconBorder: 'rgba(59, 130, 246, 0.25)',
@@ -111,19 +111,19 @@ export default function Achievements() {
         {/* Highlight Milestone Summary Banner */}
         <div className="milestone-summary-bar fade-in-element visible">
           <div className="milestone-metric">
-            <span className="milestone-metric-val">342+</span>
+            <span className="milestone-metric-val">377+</span>
             <span className="milestone-metric-lbl">Total DSA Problems Solved</span>
           </div>
           <div className="milestone-metric">
-            <span className="milestone-metric-val">278</span>
-            <span className="milestone-metric-lbl">CodeChef Solved · 1★ (1055)</span>
+            <span className="milestone-metric-val">297</span>
+            <span className="milestone-metric-lbl">CodeChef Solved · 1★ (1092 Rating)</span>
           </div>
           <div className="milestone-metric">
-            <span className="milestone-metric-val">64</span>
-            <span className="milestone-metric-lbl">LeetCode Solved (25 Med · 11 Hard)</span>
+            <span className="milestone-metric-val">80</span>
+            <span className="milestone-metric-lbl">LeetCode Solved (33 Easy · 32 Med · 15 Hard)</span>
           </div>
           <div className="milestone-metric">
-            <span className="milestone-metric-val">10</span>
+            <span className="milestone-metric-val">12</span>
             <span className="milestone-metric-lbl">GitHub Repositories</span>
           </div>
         </div>

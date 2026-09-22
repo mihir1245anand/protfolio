@@ -41,7 +41,7 @@ const PROJECTS_DATA = [
     title: 'DevFolio — Personal Portfolio',
     category: 'Web Development',
     description: 'A modern, high-performance developer portfolio website designed to showcase projects, DSA milestones, skills, certifications, and contact flow.',
-    tech: ['React.js', 'Vite', 'CSS3', 'Modern Design System'],
+    tech: ['React 19', 'Vite 6', 'CSS3', 'Modern Design System'],
     features: [
       'Dark neon aesthetic with glassmorphism and smooth micro-interactions',
       'Interactive project showcase with category filtering & live demos',

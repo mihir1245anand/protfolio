@@ -3,9 +3,9 @@ import { Code, ArrowRight, FileText, Mail, Github, Linkedin, Award } from 'lucid
 
 const ROLE_ITEMS = [
   { text: "Full-Stack Web Developer", icon: "⚡" },
-  { text: "1★ CodeChef Problem Solver", icon: "🎯" },
-  { text: "C++ & Algorithms Specialist", icon: "💻" },
-  { text: "Modern React.js Engineer", icon: "🚀" },
+  { text: "377+ DSA Problems Solved", icon: "🎯" },
+  { text: "1★ CodeChef Coder (1092 Rating)", icon: "⭐" },
+  { text: "80 LeetCode Solved (55d Streak)", icon: "🔥" },
   { text: "CSE Student @ ABES Ghaziabad", icon: "🎓" }
 ]
 
@@ -59,7 +59,7 @@ export default function Hero({ scrollTo }) {
         <div className="fade-in-element visible">
           <div className="hero-badge">
             <span className="hero-badge-dot"></span>
-            Open to Internship Opportunities · 2025–26
+            Open to Internship & SDE Roles · 2025–26
           </div>
 
           <h1 className="hero-name">
@@ -77,9 +77,9 @@ export default function Hero({ scrollTo }) {
 
           <p className="hero-description">
             B.Tech CSE student passionate about{' '}
-            <strong style={{ color: 'var(--text-primary)' }}>software development</strong>,
-            solving algorithmic challenges, and growing into a professional engineer.
-            I practice DSA daily and write clean, scalable code.
+            <strong style={{ color: 'var(--text-primary)' }}>software engineering</strong>,
+            scalable web architectures, and solving complex algorithmic challenges.
+            Practicing DSA daily and crafting production-ready code.
           </p>
 
           <div className="hero-buttons">
@@ -166,17 +166,17 @@ export default function Hero({ scrollTo }) {
               <div className="code-line"><span className="line-num">1</span><span className="line-content"><span className="kw">const</span> <span className="cl">developer</span> = &#123;</span></div>
               <div className="code-line"><span className="line-num">2</span><span className="line-content">&nbsp;&nbsp;<span className="prop">name</span>: <span className="str">"Mihir Anand"</span>,</span></div>
               <div className="code-line"><span className="line-num">3</span><span className="line-content">&nbsp;&nbsp;<span className="prop">college</span>: <span className="str">"ABES Engineering College"</span>,</span></div>
-              <div className="code-line"><span className="line-num">4</span><span className="line-content">&nbsp;&nbsp;<span className="prop">role</span>: <span className="str">"CSE Student"</span>,</span></div>
-              <div className="code-line"><span className="line-num">5</span><span className="line-content">&nbsp;&nbsp;<span className="prop">skills</span>: [<span className="str">"C++"</span>, <span className="str">"DSA"</span>, <span className="str">"React"</span>, <span className="str">"JS"</span>],</span></div>
-              <div className="code-line"><span className="line-num">6</span><span className="line-content">&nbsp;&nbsp;<span className="prop">dsaProblems</span>: <span className="num">342</span>,</span></div>
-              <div className="code-line"><span className="line-num">7</span><span className="line-content">&nbsp;&nbsp;<span className="prop">codechefSolved</span>: <span className="num">278</span>,</span></div>
-              <div className="code-line"><span className="line-num">8</span><span className="line-content">&nbsp;&nbsp;<span className="prop">leetcodeSolved</span>: <span className="num">64</span>,</span></div>
-              <div className="code-line"><span className="line-num">9</span><span className="line-content">&nbsp;&nbsp;<span className="prop">githubRepos</span>: <span className="num">10</span>,</span></div>
+              <div className="code-line"><span className="line-num">4</span><span className="line-content">&nbsp;&nbsp;<span className="prop">role</span>: <span className="str">"CSE Student & SDE Aspirant"</span>,</span></div>
+              <div className="code-line"><span className="line-num">5</span><span className="line-content">&nbsp;&nbsp;<span className="prop">skills</span>: [<span className="str">"C++"</span>, <span className="str">"DSA"</span>, <span className="str">"React.js"</span>, <span className="str">"Node.js"</span>, <span className="str">"MongoDB"</span>],</span></div>
+              <div className="code-line"><span className="line-num">6</span><span className="line-content">&nbsp;&nbsp;<span className="prop">dsaProblems</span>: <span className="num">377</span>,</span></div>
+              <div className="code-line"><span className="line-num">7</span><span className="line-content">&nbsp;&nbsp;<span className="prop">codechefSolved</span>: <span className="num">297</span>,</span></div>
+              <div className="code-line"><span className="line-num">8</span><span className="line-content">&nbsp;&nbsp;<span className="prop">leetcodeSolved</span>: <span className="num">80</span>,</span></div>
+              <div className="code-line"><span className="line-num">9</span><span className="line-content">&nbsp;&nbsp;<span className="prop">githubRepos</span>: <span className="num">12</span>,</span></div>
               <div className="code-line"><span className="line-num">10</span><span className="line-content">&nbsp;&nbsp;<span className="prop">openToWork</span>: <span className="kw">true</span>,</span></div>
-              <div className="code-line"><span className="line-num">11</span><span className="line-content">&nbsp;&nbsp;<span className="prop">focus</span>: <span className="str">"Problem Solving & Clean Code 🚀"</span>,</span></div>
+              <div className="code-line"><span className="line-num">11</span><span className="line-content">&nbsp;&nbsp;<span className="prop">focus</span>: <span className="str">"Problem Solving & Web Engineering 🚀"</span>,</span></div>
               <div className="code-line"><span className="line-num">12</span><span className="line-content">&#125;;</span></div>
               <div className="code-line"><span className="line-num">13</span><span className="line-content"></span></div>
-              <div className="code-line"><span className="line-num">14</span><span className="line-content"><span className="cmt">// 🎯 Goal: Software / Frontend Internship</span></span></div>
+              <div className="code-line"><span className="line-num">14</span><span className="line-content"><span className="cmt">// 🎯 Goal: Software / Frontend / Full-Stack Internship</span></span></div>
               <div className="code-line"><span className="line-num">15</span><span className="line-content"><span className="kw">export default</span> developer;</span></div>
             </div>
           </div>

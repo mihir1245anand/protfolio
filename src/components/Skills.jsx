@@ -1,59 +1,63 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { Code2, Cpu, Layers, Wrench, Sparkles } from 'lucide-react'
+import { Code2, Cpu, Layers, Wrench, Server, Database, Sparkles } from 'lucide-react'
 
 const SKILL_CATEGORIES = [
   {
     name: 'Languages',
     icon: Code2,
     skills: [
-      { name: 'C++', percent: 85 },
-      { name: 'JavaScript', percent: 88 },
-      { name: 'HTML5', percent: 92 },
-      { name: 'CSS3', percent: 87 }
+      { name: 'C++', percent: 90 },
+      { name: 'JavaScript (ES6+)', percent: 90 },
+      { name: 'Python', percent: 78 },
+      { name: 'HTML5 & CSS3', percent: 95 }
     ]
   },
   {
     name: 'Core CS Concepts',
     icon: Cpu,
     skills: [
-      { name: 'Data Structures', percent: 82 },
-      { name: 'Algorithms', percent: 78 },
-      { name: 'OOP Principles', percent: 82 },
-      { name: 'Problem Solving', percent: 85 }
+      { name: 'Data Structures & Algorithms', percent: 88 },
+      { name: 'Object-Oriented Programming', percent: 88 },
+      { name: 'Problem Solving & Optimization', percent: 90 },
+      { name: 'System Architecture Basics', percent: 75 }
     ]
   },
   {
-    name: 'Frameworks & Libraries',
+    name: 'Frontend Engineering',
     icon: Layers,
     skills: [
-      { name: 'React.js', percent: 75 },
-      { name: 'Tailwind CSS', percent: 70 },
-      { name: 'Bootstrap', percent: 72 }
+      { name: 'React.js & Hooks', percent: 88 },
+      { name: 'Tailwind CSS & Modern CSS', percent: 85 },
+      { name: 'Responsive Layouts & DOM', percent: 92 },
+      { name: 'State Management & Context', percent: 82 }
     ]
   },
   {
-    name: 'Tools & Platforms',
+    name: 'Backend & Databases',
+    icon: Server,
+    skills: [
+      { name: 'Node.js & Express.js', percent: 82 },
+      { name: 'MongoDB & Mongoose', percent: 78 },
+      { name: 'RESTful API Architecture', percent: 85 },
+      { name: 'WebSockets & Real-Time Sync', percent: 74 }
+    ]
+  },
+  {
+    name: 'Tools & DevOps',
     icon: Wrench,
     skills: [
-      { name: 'Git & GitHub', percent: 84 },
-      { name: 'VS Code', percent: 90 },
-      { name: 'npm / Vite', percent: 72 }
-    ]
-  },
-  {
-    name: 'Currently Learning',
-    icon: Sparkles,
-    skills: [
-      { name: 'Node.js & Express', percent: 45 },
-      { name: 'REST APIs', percent: 50 },
-      { name: 'SQL / Databases', percent: 40 }
+      { name: 'Git & GitHub Workflows', percent: 88 },
+      { name: 'Postman & API Testing', percent: 84 },
+      { name: 'Vite & Build Tooling', percent: 85 },
+      { name: 'VS Code & Debugging', percent: 92 }
     ]
   }
 ]
 
 const TECH_BADGES = [
-  'C++', 'Data Structures', 'Algorithms', 'OOP', 'JavaScript', 'HTML5',
-  'CSS3', 'React.js', 'Git', 'GitHub', 'VS Code', 'Tailwind CSS', 'REST APIs'
+  'C++', 'Data Structures', 'Algorithms', 'OOP', 'JavaScript', 'React.js',
+  'Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'WebSockets', 'Tailwind CSS',
+  'Git', 'GitHub', 'Postman', 'HTML5', 'CSS3', 'Vite'
 ]
 
 export default function Skills() {

@@ -3,12 +3,12 @@ import { FileText, Eye } from 'lucide-react'
 
 export default function Resume({ scrollTo }) {
   const highlights = [
-    '✓ 342+ DSA problems solved across platforms',
-    '✓ CodeChef 1★ Rated Competitive Programmer',
-    '✓ Strong foundation in C++, OOP & Problem Solving',
-    '✓ Proficient in JavaScript, HTML5, CSS3 & React',
-    '✓ Active LeetCode & GitHub Contributor',
-    '✓ Actively seeking internship opportunities'
+    '✓ 377+ DSA problems solved across platforms',
+    '✓ 80 LeetCode Solved · 55-Day Active Streak (15 Hard)',
+    '✓ CodeChef 1★ Rated Problem Solver (1092 Rating)',
+    '✓ Modern Web Engineering (React 19, JavaScript, CSS3, Vite)',
+    '✓ Strong foundation in C++, OOP & Algorithmic Problem Solving',
+    '✓ Actively seeking Software / Frontend / Web internships'
   ]
 
   return (

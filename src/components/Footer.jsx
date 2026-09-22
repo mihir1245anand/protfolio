@@ -14,7 +14,7 @@ export default function Footer({ scrollTo }) {
               <span className="logo-text">Mihir<span style={{ color: 'var(--accent-blue)' }}>.dev</span></span>
             </div>
             <p className="footer-tagline">
-              B.Tech CSE student practicing DSA, solving problems, and preparing for a career in software engineering. Open to internship opportunities.
+              B.Tech CSE student solving 377+ DSA problems (297 on CodeChef · 1★ Rated / 80 on LeetCode · 55-Day Streak) and building modern web solutions. Open to internship opportunities.
             </p>
           </div>
 
@@ -24,7 +24,8 @@ export default function Footer({ scrollTo }) {
               <li><button onClick={() => scrollTo('home')}>Home</button></li>
               <li><button onClick={() => scrollTo('about')}>About</button></li>
               <li><button onClick={() => scrollTo('skills')}>Skills</button></li>
-              <li><button onClick={() => scrollTo('experience')}>Experience</button></li>
+              <li><button onClick={() => scrollTo('projects')}>Projects</button></li>
+              <li><button onClick={() => scrollTo('achievements')}>Achievements</button></li>
             </ul>
           </div>
 
