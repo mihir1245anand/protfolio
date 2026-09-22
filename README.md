@@ -3,14 +3,15 @@
 # ⚡ Mihir Anand — Developer Portfolio
 
 <p align="center">
-  <strong>Modern, High-Performance Personal Portfolio & Showcase for a B.Tech CSE Student & SDE Aspirant</strong>
+  <strong>High-Performance Personal Portfolio & Showcase for a B.Tech CSE Student & Software Developer</strong>
 </p>
 
 [![Vercel Deployment](https://img.shields.io/badge/Deployed-Vercel-black?style=for-the-badge&logo=vercel)](https://protfolio-flame-three.vercel.app)
 [![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-6.1-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
-[![Lucide Icons](https://img.shields.io/badge/Lucide_Icons-0.475-F05032?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev/)
+[![DSA Solved](https://img.shields.io/badge/DSA%20Solved-377+-10b981?style=for-the-badge&logo=c%2B%2B)](https://github.com/mihir1245anand)
+[![CodeChef](https://img.shields.io/badge/CodeChef-297%20Solved%20%7C%201★%20(1092)-5B4638?style=for-the-badge&logo=codechef)](https://www.codechef.com/users/mihir1245anand)
+[![LeetCode](https://img.shields.io/badge/LeetCode-80%20Solved%20%7C%2055d%20Streak-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/mihir1245anand/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-10b981.svg?style=for-the-badge)](LICENSE)
 
 <br />
